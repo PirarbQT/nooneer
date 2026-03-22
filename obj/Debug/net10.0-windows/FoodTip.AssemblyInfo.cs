@@ -11,7 +11,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("V.1.0 by 68340818 Jindarat")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+450231689001454f9fc6f76ce8c29b6b09970c85")]
 [assembly: System.Reflection.AssemblyProductAttribute("V.1.0 by 68340818 Jindarat")]

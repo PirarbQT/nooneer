@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "V.1.0 by 68340818 Jindarat/1.0.0": {
+        "runtime": {
+          "V.1.0 by 68340818 Jindarat.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "V.1.0 by 68340818 Jindarat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

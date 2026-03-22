@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johnn\\Downloads\\s\\FoodTip.csproj": {}
+    "C:\\Users\\johnn\\Downloads\\nonner\\FoodTip.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johnn\\Downloads\\s\\FoodTip.csproj": {
+    "C:\\Users\\johnn\\Downloads\\nonner\\FoodTip.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnn\\Downloads\\s\\FoodTip.csproj",
-        "projectName": "food-tip",
-        "projectPath": "C:\\Users\\johnn\\Downloads\\s\\FoodTip.csproj",
+        "projectUniqueName": "C:\\Users\\johnn\\Downloads\\nonner\\FoodTip.csproj",
+        "projectName": "V.1.0 by 68340818 Jindarat",
+        "projectPath": "C:\\Users\\johnn\\Downloads\\nonner\\FoodTip.csproj",
         "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnn\\Downloads\\s\\obj\\",
+        "outputPath": "C:\\Users\\johnn\\Downloads\\nonner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config"

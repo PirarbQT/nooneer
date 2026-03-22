@@ -34,13 +34,13 @@ internal sealed class FoodTipForm : Form
         MaximizeBox = false;
         MinimizeBox = false;
         StartPosition = FormStartPosition.CenterScreen;
-        Text = "Food Tip Calculator";
+        Text = "V.1.0 by 68340818 Jindarat";
 
         Label foodCostLabel = new()
         {
             AutoSize = true,
             Location = new Point(24, 32),
-            Text = "ค่าอาหาร"
+            Text = "Food Cost"
         };
 
         foodCostTextBox = new TextBox
@@ -53,7 +53,7 @@ internal sealed class FoodTipForm : Form
         {
             AutoSize = true,
             Location = new Point(24, 82),
-            Text = "ทิป (%)"
+            Text = "Tip (%)"
         };
 
         tipPercentTextBox = new TextBox
@@ -75,7 +75,7 @@ internal sealed class FoodTipForm : Form
         {
             Location = new Point(170, 308),
             Size = new Size(120, 38),
-            Text = "คำนวณ"
+            Text = "Calculate"
         };
         calculateButton.Click += CalculateButton_Click;
 
@@ -105,13 +105,13 @@ internal sealed class FoodTipForm : Form
     {
         if (!TryParseDecimal(foodCostTextBox.Text, out decimal foodCost) || foodCost < 0)
         {
-            ShowValidationError("กรุณากรอกค่าอาหารเป็นตัวเลขที่มากกว่าหรือเท่ากับ 0", foodCostTextBox);
+            ShowValidationError("Please enter a valid food cost greater than or equal to 0.", foodCostTextBox);
             return;
         }
 
         if (!TryParseDecimal(tipPercentTextBox.Text, out decimal tipPercent) || tipPercent < 0)
         {
-            ShowValidationError("กรุณากรอกเปอร์เซ็นต์ทิปเป็นตัวเลขที่มากกว่าหรือเท่ากับ 0", tipPercentTextBox);
+            ShowValidationError("Please enter a valid tip percentage greater than or equal to 0.", tipPercentTextBox);
             return;
         }
 
@@ -119,10 +119,10 @@ internal sealed class FoodTipForm : Form
         decimal total = foodCost + tipAmount;
 
         resultTextBox.Text =
-            $"ค่าอาหาร: {foodCost:N2} บาท{Environment.NewLine}" +
-            $"เปอร์เซ็นต์ทิป: {tipPercent:N2}%{Environment.NewLine}" +
-            $"ค่าทิป: {tipAmount:N2} บาท{Environment.NewLine}{Environment.NewLine}" +
-            $"รวมทั้งหมด: {total:N2} บาท";
+            $"Food Cost: {foodCost:N2}{Environment.NewLine}" +
+            $"Tip Percentage: {tipPercent:N2}%{Environment.NewLine}" +
+            $"Tip Amount: {tipAmount:N2}{Environment.NewLine}{Environment.NewLine}" +
+            $"Total Amount: {total:N2}";
     }
 
     private void ResetButton_Click(object? sender, EventArgs e)
@@ -134,7 +134,7 @@ internal sealed class FoodTipForm : Form
     {
         foodCostTextBox.Text = string.Empty;
         tipPercentTextBox.Text = string.Empty;
-        resultTextBox.Text = "กรอกค่าอาหารและเปอร์เซ็นต์ทิป แล้วกดปุ่ม คำนวณ";
+        resultTextBox.Text = "Enter the food cost and tip percentage, then click Calculate.";
         foodCostTextBox.Focus();
     }
 
@@ -146,7 +146,7 @@ internal sealed class FoodTipForm : Form
 
     private void ShowValidationError(string message, Control target)
     {
-        MessageBox.Show(this, message, "ข้อมูลไม่ถูกต้อง", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, message, "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
         target.Focus();
         if (target is TextBox textBox)
         {

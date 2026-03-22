@@ -5,7 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyName>food-tip</AssemblyName>
+    <AssemblyName>V.1.0 by 68340818 Jindarat</AssemblyName>
+    <Title>V.1.0 by 68340818 Jindarat</Title>
+    <Product>V.1.0 by 68340818 Jindarat</Product>
     <RootNamespace>FoodTip</RootNamespace>
   </PropertyGroup>
 </Project>

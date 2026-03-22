@@ -13,3 +13,18 @@ C:\Users\johnn\Downloads\s\obj\Release\net10.0-windows\refint\food-tip.dll
 C:\Users\johnn\Downloads\s\obj\Release\net10.0-windows\food-tip.pdb
 C:\Users\johnn\Downloads\s\obj\Release\net10.0-windows\FoodTip.genruntimeconfig.cache
 C:\Users\johnn\Downloads\s\obj\Release\net10.0-windows\ref\food-tip.dll
+C:\Users\johnn\Downloads\nonner\bin\Release\net10.0-windows\V.1.0 by 68340818 Jindarat.exe
+C:\Users\johnn\Downloads\nonner\bin\Release\net10.0-windows\V.1.0 by 68340818 Jindarat.deps.json
+C:\Users\johnn\Downloads\nonner\bin\Release\net10.0-windows\V.1.0 by 68340818 Jindarat.runtimeconfig.json
+C:\Users\johnn\Downloads\nonner\bin\Release\net10.0-windows\V.1.0 by 68340818 Jindarat.dll
+C:\Users\johnn\Downloads\nonner\bin\Release\net10.0-windows\V.1.0 by 68340818 Jindarat.pdb
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\FoodTip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\FoodTip.AssemblyInfoInputs.cache
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\FoodTip.AssemblyInfo.cs
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\FoodTip.csproj.CoreCompileInputs.cache
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\FoodTip.sourcelink.json
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\V.1.0 by 68340818 Jindarat.dll
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\refint\V.1.0 by 68340818 Jindarat.dll
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\V.1.0 by 68340818 Jindarat.pdb
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\FoodTip.genruntimeconfig.cache
+C:\Users\johnn\Downloads\nonner\obj\Release\net10.0-windows\ref\V.1.0 by 68340818 Jindarat.dll
